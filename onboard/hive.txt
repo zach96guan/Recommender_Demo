@@ -1,0 +1,13 @@
+which hive:
+/usr/local/bin/hive
+
+set hive.cli.print.header=true;
+set hive.exec.dynamic.partition=true;
+set hive.exec.dynamic.partition.mode=nonstrict;
+set hive.enforce.bucketing=true;
+set hive.auto.convert.join=true;
+
+hive -e: run query from command line;
+hive -f: run script in command line;
+
+insert overwrite local directory '/home/zach/’ select * from …;

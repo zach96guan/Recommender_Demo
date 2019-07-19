@@ -1,0 +1,16 @@
+Setup: 
+source .bash_profile
+
+PATH=$PATH:$HOME/bin
+export PATH
+
+# Python3 binary location
+export PATH="/home/z0g00mx/anaconda3/bin:$PATH"
+
+# lib location
+export LD_LIBRARY_PATH="/home/z0g00mx/anaconda3/lib"
+
+Jupyter remote:
+jupyter notebook --no-browser --ip=127.0.0.1
+ssh -L 8888:localhost:8888 z0g00mx@10.227.144.95
+http://127.0.0.1:8888/?token=18cce686c400795b04b8e88bf5150cf912a4e927fc96d505

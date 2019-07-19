@@ -1,0 +1,25 @@
+Project:
+1. Markov chains for shorter sequence dependency;
+2. Factorization machines;
+3. Bayesian personalized ranking.
+
+Use transaction data: 
+- ucid.common_transaction_model
+- database: ucid
+- table: common_transaction_model
+
+Sample:
+- source=‘wmt’
+- purchase_date=‘2019-05-20’
+
+Model:
+- User response
+- ALS for matrix factorization
+
+Data: 
+- Time dependency
+- Normalize bias
+
+Method:
+- Spark MLlib
+- sklearn
