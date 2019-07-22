@@ -7,8 +7,11 @@ export PATH
 # Python3 binary location
 export PATH="/home/z0g00mx/anaconda3/bin:$PATH"
 
-# lib location
+# libPython location
 export LD_LIBRARY_PATH="/home/z0g00mx/anaconda3/lib"
+
+# libFM location d
+export LIBFM_PATH=/home/libfm/bin/
 
 Jupyter remote:
 jupyter notebook --no-browser --ip=127.0.0.1
