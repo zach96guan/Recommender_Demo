@@ -25,3 +25,4 @@ Intern project to implement recommender demo for implicit feedback transaction d
 ## Model
 - ALS_WR based Collaborative Filtering
 - Bayesian Personalized Ranking
+- Factorization Machine
