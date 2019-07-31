@@ -1,0 +1,58 @@
+(base) m-c02xr0s0jgh7:CF_libFM z0g00mx$ ./run.sh '1,1,8' 20 als '0,0,10' 0.1
+----------------------------------------------------------------------------
+libFM
+  Version: 1.4.4
+  Author:  Steffen Rendle, srendle@libfm.org
+  WWW:     http://www.libfm.org/
+This program comes with ABSOLUTELY NO WARRANTY; for details see license.txt.
+This is free software, and you are welcome to redistribute it under certain
+conditions; for details see license.txt.
+----------------------------------------------------------------------------
+Loading train...	
+has x = 0
+has xt = 1
+num_rows=54960372	num_values=109920744	num_features=2688379	min_target=-1	max_target=1
+Loading test... 	
+has x = 0
+has xt = 1
+num_rows=161154	num_values=322308	num_features=2688299	min_target=-1	max_target=1
+#relations: 0
+Loading meta data...	
+#attr=2688379	#groups=1
+#attr_in_group[0]=2688379
+logging to ./output/fm_dim_1,1,8_iter_20_method_als_reg_0,0,10_std_0.1.rlog
+num_attributes=2688379
+use w0=1
+use w1=1
+dim v =8
+reg_w0=0
+reg_w=0
+reg_v=10
+init ~ N(0,0.1)
+task=1
+min_target=-1
+max_target=1
+do_multilevel=0
+do_sampling=0
+num_eval_cases=161154
+#Iter=  0	Train=0.691202	Test=0.697259	Test(ll)=0.259637
+#Iter=  1	Train=0.727833	Test=0.699269	Test(ll)=0.257059
+#Iter=  2	Train=0.757928	Test=0.699592	Test(ll)=0.255911
+#Iter=  3	Train=0.775186	Test=0.698841	Test(ll)=0.255376
+#Iter=  4	Train=0.786156	Test=0.698959	Test(ll)=0.255086
+#Iter=  5	Train=0.793785	Test=0.699207	Test(ll)=0.254867
+#Iter=  6	Train=0.799471	Test=0.699834	Test(ll)=0.25464
+#Iter=  7	Train=0.803873	Test=0.700554	Test(ll)=0.254377
+#Iter=  8	Train=0.807362	Test=0.701379	Test(ll)=0.254075
+#Iter=  9	Train=0.810187	Test=0.702254	Test(ll)=0.253746
+#Iter= 10	Train=0.812491	Test=0.70316	Test(ll)=0.253403
+#Iter= 11	Train=0.814416	Test=0.704221	Test(ll)=0.253056
+#Iter= 12	Train=0.816025	Test=0.705083	Test(ll)=0.252715
+#Iter= 13	Train=0.817405	Test=0.706027	Test(ll)=0.252384
+#Iter= 14	Train=0.818608	Test=0.706734	Test(ll)=0.252067
+#Iter= 15	Train=0.819651	Test=0.707429	Test(ll)=0.251766
+#Iter= 16	Train=0.820598	Test=0.707888	Test(ll)=0.25148
+#Iter= 17	Train=0.821439	Test=0.708682	Test(ll)=0.251208
+#Iter= 18	Train=0.822202	Test=0.709204	Test(ll)=0.25095
+#Iter= 19	Train=0.822886	Test=0.709948	Test(ll)=0.250704
+Writing FM model to ./output/fm_dim_1,1,8_iter_20_method_als_reg_0,0,10_std_0.1.model
