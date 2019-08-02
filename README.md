@@ -1,4 +1,4 @@
-# Recommender_Demo
+# Personalized Recommender for Implicit Data
 In this project, the target is to design a personalized recommendation system for implicit feedback data. I implement latent factor model based collaborative filtering, including pointwise/pairwise non-negative matrix factorization and factorization machine methods. To evaluate the proposed model, I perform the experiment in following steps. On one hand, to capture sequential users’ purchase behavior, split into the train/validation data in temporal manner. On the other hand, as items ranked higher should be more preferred by customers, ranking based metrics are applied. The experiment with Walmart.com transaction data shows potential improvement on top-N recommendation performance.
 
 ## Data
